@@ -1,0 +1,10 @@
+# Possible values: "critical", "high", "moderate", "low"
+fail-on-severity: moderate
+
+# You can only include one of these two options: `allow-licenses` and `deny-licenses`
+# ([String]). Only allow these licenses (optional)
+# Possible values: Any SPDX-compliant license identifiers or expressions from https://spdx.org/licenses/
+allow-licenses:
+  - GPL-3.0-only
+  - BSD-3-Clause
+  - MIT
