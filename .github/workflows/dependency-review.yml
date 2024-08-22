@@ -37,3 +37,6 @@ jobs:
         #   fail-on-severity: moderate
         #   deny-licenses: GPL-1.0-or-later, LGPL-2.0-or-later
         #   retry-on-snapshot-warnings: true
+          config-file: './.github/dependency-review-config.yml'
+          # Syntax for an external file: OWNER/REPOSITORY/PATH/FILENAME@BRANCH
+          # config-file: 'github/octorepo/.github/dependency-review-config.yml@main'
